@@ -2,7 +2,7 @@
 
 Final Year Project (FYP) — Bachelor of Computer Science (Hons) Artificial Intelligence, Faculty of Information Science & Technology, Multimedia University (July 2026).
 
-**Author:** Sofia Batrisyia Binti Mohamad Faris
+**Author:** Sofia Batrisyia Binti Mohamad Faris<br>
 **Supervisor:** Assoc. Prof. Ts. Dr. Pang Ying Han
 
 ## Project Overview
@@ -79,7 +79,7 @@ The proposed **MGU + Additive Attention + CL** model was also markedly more effi
 
 ```
 5G-Network-Anomaly-Detection/
-├── Dataset/                                                                    # not included in repo — download separately (see below)
+├── Dataset/                                                        # not included in repo — download separately (see below)
 ├── Lightweight GRU (MGU + Additive Attention + CL) TimeSeries_Binary Model.ipynb
 ├── Lightweight GRU (MGU + Additive Attention + CL) TimeSeries_Multiclass Model.ipynb
 └── README.md
