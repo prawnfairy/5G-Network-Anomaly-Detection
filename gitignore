@@ -1,5 +1,7 @@
 # Dataset (too large for GitHub — view README for download instructions)
-data/
+# The Dataset/ folder itself is kept via Dataset/.gitkeep; only its contents are ignored.
+Dataset/*
+!Dataset/.gitkeep
 
 # Python
 __pycache__/
