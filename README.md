@@ -30,7 +30,7 @@ A lightweight deep learning-based network anomaly detection system designed for 
 
 | Component | Description |
 |---|---|
-| **Conv1D** | Local feature extraction over input sequences — 64 channels, kernel size 3, batch normalization, ReLU |
+| **Conv1D** | Local feature extraction over input sequences — 32 channels, kernel size 3, batch normalization, ReLU |
 | **MGU (Minimal Gated Unit)** | Lightweight alternative to GRU/LSTM using only 2 gates (forget gate + candidate state), hidden size 64 |
 | **Additive Attention** | Softmax-weighted attention over the sequence dimension via a learnable context vector, to focus on the most informative time steps |
 | **Classification Head** | Dropout (0.3) + fully connected linear layer mapping the context vector to class logits |
@@ -100,10 +100,11 @@ cd 5G-Network-Anomaly-Detection
 ```bash
 python -m venv venv
 source venv/bin/activate       # On Windows: venv\Scripts\activate
-pip install numpy pandas scikit-learn tensorflow matplotlib seaborn jupyter kaggle
+pip install pandas numpy matplotlib seaborn scikit-learn torchinfo
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
-> Adjust the package list to match the exact imports used in the notebooks (e.g., swap `tensorflow` for `torch` if the model is implemented in PyTorch).
+> For exact tool/library versions and download links, see `README.txt`.
 
 ### 3. Download the dataset
 
