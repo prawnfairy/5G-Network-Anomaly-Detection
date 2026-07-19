@@ -79,7 +79,8 @@ The proposed **MGU + Additive Attention + CL** model was also markedly more effi
 
 ```
 5G-Network-Anomaly-Detection/
-├── Dataset/                                                        # not included in repo — download separately (see below)
+├── Dataset/
+│   └── .gitkeep         # placeholder — actual CSV is not committed (see below)
 ├── Lightweight GRU (MGU + Additive Attention + CL) TimeSeries_Binary Model.ipynb
 ├── Lightweight GRU (MGU + Additive Attention + CL) TimeSeries_Multiclass Model.ipynb
 └── README.md
@@ -127,6 +128,6 @@ Both notebooks read the dataset from `Dataset/5G_NIDD_Full.csv`, so make sure th
 
 ## Notes
 
-The dataset is excluded from version control (see `.gitignore`) due to its size. It must be downloaded locally following the steps above before running the notebooks. This project was developed as part of an academic Final Year Project; core logic, architecture, and implementation decisions are original work. If you use the 5G-NIDD dataset, please cite it per the guidance on its Kaggle page.
+The dataset is excluded from version control (see `.gitignore`) due to its size, which only an empty Dataset/.gitkeep placeholder is committed so the folder structure is preserved on GitHub. It must be downloaded locally following the steps above before running the notebooks. This project was developed as part of an academic Final Year Project; core logic, architecture, and implementation decisions are original work. If you use the 5G-NIDD dataset, please cite it per the guidance on its Kaggle page.
 
 > **Disclaimer:** This repository was developed solely for academic purposes as a Final Year Project (FYP) submitted in partial fulfilment of the Bachelor of Computer Science (Hons) Artificial Intelligence at the Faculty of Information Science & Technology, Multimedia University. It is not intended for production or commercial use, and no warranty is provided regarding its accuracy, performance, or suitability for real-world deployment.
